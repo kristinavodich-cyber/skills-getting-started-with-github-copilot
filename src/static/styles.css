@@ -120,6 +120,59 @@ button:hover {
   border: 1px solid #a5d6a7;
 }
 
+.participants {
+  margin-top: 12px;
+  padding: 12px;
+  background-color: rgba(26, 35, 126, 0.06);
+  border-radius: 6px;
+  border: 1px solid rgba(26, 35, 126, 0.12);
+}
+
+.participants-list {
+  margin: 8px 0 0 0;
+  padding-left: 0;
+  list-style: none;
+  color: #333;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.participant-name {
+  font-size: 0.95rem;
+  color: #333;
+  word-break: break-all;
+}
+
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 0.15s;
+}
+
+.participant-remove:hover {
+  background-color: rgba(198, 40, 40, 0.1);
+}
+
+.participants-empty {
+  margin: 8px 0 0 0;
+  font-style: italic;
+  color: #666;
+}
+
 .error {
   background-color: #ffebee;
   color: #c62828;
